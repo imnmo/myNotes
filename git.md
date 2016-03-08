@@ -28,8 +28,10 @@ as usual with ...
 
 To rename files or directories the following steps needs to be followed:
 
-* git mv oldfolder/oldfile newfolder/newfile
-* git add newfolder
+* git mv or mv oldfolder/oldfile newfolder/newfile
+	* try to always us mv ## since git mv tries to append the stuff
+
+## Deleting any recurcive folder 
 * git rm -r oldfolder
 * git commit
 * git push review
