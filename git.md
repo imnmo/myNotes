@@ -31,7 +31,17 @@ To rename files or directories the following steps needs to be followed:
 * git mv or mv oldfolder/oldfile newfolder/newfile
 	* try to always us mv ## since git mv tries to append the stuff
 
-## Deleting any recurcive folder 
+## Deleting any recursive folder 
 * git rm -r oldfolder
 * git commit
 * git push review
+
+
+## Update your local(master) branch to origin/master:
+* DO's:
+	* git rebase origin/master
+	* git mergetool (in case of merge conflict, use mergetool and fix the changes)
+	* git rebase -- continue
+* DONT'S:
+	* don't do git pull on your local(master)
+	* not required to do git commit after fixing your merge conflicts while doing git rebase
