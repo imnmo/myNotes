@@ -20,4 +20,7 @@
 	* child pom.xml:
 		*   same as above may contains dependencies like for mockito, 
 			
- 
+###commands
+
+* mvn install -Dmaven.test.skip=true //to skip the tests in the pom.xml
+*  
